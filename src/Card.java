@@ -1,12 +1,13 @@
 public class Card {
-   private int value;       //getset
+    private int value;       //getset
     private String suit;    //getset
 
-    public Card(int value, String suit ){
+    public Card(int value, String suit) {
         this.suit = suit;
         this.value = value;
     }
-///////////////////getset
+
+    ///////////////////getset
     public String getSuit() {
         return suit;
     }
